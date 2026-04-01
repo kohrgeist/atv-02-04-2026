@@ -1,0 +1,36 @@
+# ==========================================
+# 1. outras plataformas
+# ==========================================
+/ios/
+/linux/
+/macos/
+/web/
+/windows/
+
+# ==========================================
+# 2. flutter e dart
+# ==========================================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ==========================================
+# 3. arquivo local do android
+# ==========================================
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/local.properties
+**/android/key.properties
+**/android/app/src/main/res/raw/google_services.json
+
+# ==========================================
+# 4. ide e sistema
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.DS_Store
